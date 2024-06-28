@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIGC Artificial Intelligence</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background: #111;  /* 深色背景 */
+            color: #fff;  /* 白色文字 */
+            overflow: hidden;
+        }
+        .cyberpunk-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('cyberpunk_city.jpg') no-repeat center center/cover;
+            mix-blend-mode: multiply;
+            opacity: 0.5;  /* 调整背景透明度 */
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #00ff00;  /* 霓虹绿 */
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        @keyframes neon {
+            0%, 100% { text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0fa, 0 0 40px #0fa, 0 0 50px #0fa, 0 0 60px #0fa; }
+            50% { text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0fa, 0 0 20px #0fa, 0 0 25px #0fa, 0 0 30px #0fa; }
+        }
+        .neon {
+            animation: neon 1s ease-in-out infinite alternate;
+        }
+    </style>
+</head>
+<body>
+
+<div class="cyberpunk-bg"></div>
+
+<div class="content">
+    <h1 class="neon">AIGC Artificial Intelligence</h1>
+    <p>Welcome to the future of creativity and intelligence. AIGC is at the forefront of artificial intelligence, where technology meets imagination. Explore the boundless potential of AIGC and discover how it's shaping the world of tomorrow.</p>
+</div>
+
+</body>
+</html>
